@@ -1,7 +1,17 @@
-Funix Voting Daap Presentation
+Funix Voting Daap
 
 @author: Le Phuoc Hoang Dan
 
-Link:
+Presentation Link:
 
 https://bit.ly/funixvotingdaap
+
+
+Github project link:
+
+https://github.com/dandev947366/funix-voting-daap.git
+
+
+REQUIREMENTS:
+
+Node version: 18.17.0
