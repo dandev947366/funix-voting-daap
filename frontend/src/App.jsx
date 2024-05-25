@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from "react";
 import { WHITELIST_CONTRACT_ADDRESS, abi } from "./constants";
 import { Modal } from "./components/Modal";
 import { createPortal } from "react-dom";
-// import {Add} from './components/Add'
 import { ProposalList } from "./components/ProposalList";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "./assets/logo.png";
