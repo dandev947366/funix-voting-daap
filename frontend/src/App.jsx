@@ -25,7 +25,7 @@ import {
   FaRegSquarePlus,
   FaArrowRightFromBracket
 } from "react-icons/fa6";
-
+import map from './map.jpg';
 const App = () => {
   const [provider, setProvider] = useState(null);
   const [address, setAddress] = useState("");
@@ -215,7 +215,7 @@ const App = () => {
   };
 
   return (
-    <>
+    <div style={{ backgroundImage: `url(${map})`, height: '100vh', backgroundSize: 'cover', }}>
       <Navbar style={{  background: '#09223b', color: '#E50D35'}}>
         <Container className="d-flex justify-content-between align-items-center">
           <Navbar.Brand href="/">
@@ -310,7 +310,7 @@ const App = () => {
       
       
       
-    </>
+    </div>
   );
 };
 
