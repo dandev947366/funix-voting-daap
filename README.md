@@ -14,3 +14,5 @@ The FUNIX Voting dApp is a decentralized application designed to provide a secur
 
 ![Homepage](https://github.com/dandev947366/funix-voting-daap/blob/master/documents/images/home.jpg)
 
+## Architechture
+![Architechture](https://github.com/dandev947366/funix-voting-daap/blob/master/documents/images/architecture.png)
