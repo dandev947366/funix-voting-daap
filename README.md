@@ -16,3 +16,6 @@ The FUNIX Voting dApp is a decentralized application designed to provide a secur
 
 ## Architechture
 ![Architechture](https://github.com/dandev947366/funix-voting-daap/blob/master/documents/images/architecture.png)
+
+## Smart Contract Address (OP Mainnet)
+https://optimistic.etherscan.io/address/0xABa09CF726623F11C29c7A4862F786b37A59666c
