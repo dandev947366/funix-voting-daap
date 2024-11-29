@@ -51,7 +51,8 @@ const App = () => {
     console.log("web3Provider", web3Provider);
 
     // If user is not connected to the OP network, let them know and throw an error
-    const OP_CHAINID = 11155420;
+    // const OP_CHAINID = 11155420;
+    const OP_CHAINID = 10;
     const LOCAL_HOST_CHAINID = 31337;
     const { chainId } = await web3Provider.getNetwork();
     if (chainId !== OP_CHAINID) {
@@ -268,8 +269,8 @@ const App = () => {
         </Container>
       </Navbar>
       {!walletConnected && <CardCom />}
-    
-    
+
+
        {/* PROPOSALSLIST COMPONENT */}
       {walletConnected && (
         <ProposalList
@@ -298,7 +299,7 @@ const App = () => {
               proposal={proposal}
               setProposal={setProposal}
               addProposal={addProposal}
-              
+
             >
               Create Proposal
             </Modal>,
@@ -306,10 +307,10 @@ const App = () => {
           )}
       </div>
       {/* END CREATE PROPOSAL POPUP MODAL */}
-      
-      
-      
-      
+
+
+
+
     </div>
   );
 };
